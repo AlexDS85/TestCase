@@ -4,7 +4,7 @@
 
 
 static NSString * cellIdentifier = @"TCGitUserCell";
-@interface TCRootViewController ()<UITableViewDataSource,UITableViewDelegate>
+@interface TCRootViewController ()<UITableViewDataSource,UITableViewDelegate,UIScrollViewDelegate>
 @property(nonatomic,strong) UITableView * tableView;
 @property(nonatomic,strong) NSArray * users;
 
@@ -109,4 +109,29 @@ static NSString * cellIdentifier = @"TCGitUserCell";
     return [TCRootTableViewCell cellHeight];
 }
 
+- (void)loadOnScreenImages
+{
+    for (NSIndexPath *indexPath in [self.tableView indexPathsForVisibleRows])
+    {
+        TCGitUser * user = _users[indexPath.row];
+        if (!user.avatarImage)
+            [user avatar];
+    }
+
+}
+
+#pragma mark - UIScrollViewDelegate
+
+- (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate
+{
+    if (!decelerate)
+    {
+        [self loadOnScreenImages];
+    }
+}
+
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
+{
+    [self loadOnScreenImages];
+}
 @end

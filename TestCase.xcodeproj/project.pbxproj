@@ -25,8 +25,8 @@
 		80256CAC197EB735007B7313 /* TCCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 80256CAA197EB735007B7313 /* TCCore.m */; };
 		80256CAF197ED0E5007B7313 /* TCGitUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 80256CAE197ED0E5007B7313 /* TCGitUser.m */; };
 		80256CB0197ED0E5007B7313 /* TCGitUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 80256CAE197ED0E5007B7313 /* TCGitUser.m */; };
-		80256CB3197ED630007B7313 /* TCRootTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80256CB2197ED630007B7313 /* TCRootTableViewCell.m */; };
-		80256CB4197ED630007B7313 /* TCRootTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80256CB2197ED630007B7313 /* TCRootTableViewCell.m */; };
+		80256CBA197FAA57007B7313 /* TCRootTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80256CB9197FAA57007B7313 /* TCRootTableViewCell.m */; };
+		80256CBB197FAA57007B7313 /* TCRootTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80256CB9197FAA57007B7313 /* TCRootTableViewCell.m */; };
 		864EFC9FAFF94FE8A768385F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D67D44C648034A03A8019CD1 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -65,7 +65,7 @@
 		80256CAD197ED0E5007B7313 /* TCGitUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCGitUser.h; sourceTree = "<group>"; };
 		80256CAE197ED0E5007B7313 /* TCGitUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCGitUser.m; sourceTree = "<group>"; };
 		80256CB1197ED630007B7313 /* TCRootTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCRootTableViewCell.h; sourceTree = "<group>"; };
-		80256CB2197ED630007B7313 /* TCRootTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRootTableViewCell.m; sourceTree = "<group>"; };
+		80256CB9197FAA57007B7313 /* TCRootTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCRootTableViewCell.m; sourceTree = "<group>"; };
 		D67D44C648034A03A8019CD1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -140,7 +140,7 @@
 				80256CAD197ED0E5007B7313 /* TCGitUser.h */,
 				80256CAE197ED0E5007B7313 /* TCGitUser.m */,
 				80256CB1197ED630007B7313 /* TCRootTableViewCell.h */,
-				80256CB2197ED630007B7313 /* TCRootTableViewCell.m */,
+				80256CB9197FAA57007B7313 /* TCRootTableViewCell.m */,
 			);
 			path = TestCase;
 			sourceTree = "<group>";
@@ -305,7 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80256CB3197ED630007B7313 /* TCRootTableViewCell.m in Sources */,
+				80256CBA197FAA57007B7313 /* TCRootTableViewCell.m in Sources */,
 				80256C83197EB50E007B7313 /* main.m in Sources */,
 				80256CAF197ED0E5007B7313 /* TCGitUser.m in Sources */,
 				80256CA7197EB66E007B7313 /* TCRootViewController.m in Sources */,
@@ -322,7 +322,7 @@
 				80256CAC197EB735007B7313 /* TCCore.m in Sources */,
 				80256CA8197EB66E007B7313 /* TCRootViewController.m in Sources */,
 				80256C9C197EB50E007B7313 /* TestCaseTests.m in Sources */,
-				80256CB4197ED630007B7313 /* TCRootTableViewCell.m in Sources */,
+				80256CBB197FAA57007B7313 /* TCRootTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
