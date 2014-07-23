@@ -1,0 +1,5 @@
+platform :ios, '7.0'
+pod 'AFNetworking',  '1.3.3'
+pod 'ReactiveCocoa', '~> 2.1.8'
+pod 'NSLayoutEquations', '~> 0.2.0'
+pod 'TTTAttributedLabel'
